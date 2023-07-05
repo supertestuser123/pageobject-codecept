@@ -13,5 +13,8 @@
         "@codeceptjs/ui": "^0.6.1",
         "codeceptjs": "^3.5.0",
         "playwright": "^1.35.1"
+    },
+    "dependencies": {
+        "gherkin": "^9.0.0"
     }
 }
