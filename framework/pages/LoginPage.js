@@ -16,14 +16,5 @@ module.exports = {
   submitForm(){
     I.click('//*[@type="submit"]');
   },
-  emailFieldIsVisible(){
-    cy.get('#email').should('exist');
-},
-  passwordFieldIsVisible(){
-    cy.get('#password').should('exist');
-},
-emailFieldIsEnable(){
-    cy.get('#email').should('be.enabled')
-}
 }
 
